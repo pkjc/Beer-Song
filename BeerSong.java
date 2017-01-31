@@ -2,7 +2,8 @@
 public class BeerSong {
 
 	public static void main(String[] args) {
-        System.out.println("Hello");
+        BeerSong beerSong = new BeerSong();
+		beerSong.ninetyNineBottlesOfBeer();
 	}
 
 	void ninetyNineBottlesOfBeer() {
